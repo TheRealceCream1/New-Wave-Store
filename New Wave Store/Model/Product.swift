@@ -16,7 +16,7 @@ class Product{
     var price : Double
     
     
-    init(name : String = "Pen", description : String = "Super W Pen", picture : String = "wPen",quantity : Int = 0,price : Double = 0.0){
+    init(name : String = "Pen", description : String = "Super W Pen", picture : String = "lPen",quantity : Int = 0,price : Double = 0.0){
         self.name = name
         self.description = description
         self.picture = picture
