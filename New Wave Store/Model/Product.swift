@@ -9,14 +9,14 @@ import Foundation
 
 class Product{
     
-    var name : String
-    var description : String
-    var picture : String
-    var quantity : Int
-    var price : Double
+    @Published var name : String
+    @Published var description : String
+    @Published var picture : String
+    @Published var quantity : Int
+    @Published var price : Double
     
     
-    init(name : String = "Pen", description : String = "Super W Pen", picture : String = "lPen",quantity : Int = 0,price : Double = 0.0){
+    init(name : String = "Pen", description : String = "Super W Pen", picture : String = "wPen",quantity : Int = 0,price : Double = 0.0){
         self.name = name
         self.description = description
         self.picture = picture
